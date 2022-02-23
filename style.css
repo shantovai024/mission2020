@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Common Css */
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    padding: 0 100px;
+}
+
+.mb-90 {
+    margin-bottom: 90px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 80px;
+}
+
+/* Header area  */
+.header-text h1 {
+    position: relative;
+    padding-left: 10px;
+}
+
+.header-text h1::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 125px;
+    background-color: red;
+    top: 19px;
+    left: 0px;
+}
+
+.header-text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #3E3E3E;
+    padding-right: 40px;
+}
+
+.text-yellow {
+    color: #FFAD5A;
+}
+
+.btn {
+    background-color: #FF5959;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.font-sm {
+    font-size: 16px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.header-img img {
+    width: 80%;
+}
+
+/* Card area start  */
+.card-head h2 {
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.card-title h3 {
+    font-weight: bold;
+}
+
+.card-content {
+    width: 30%;
+    padding: 60px 25px;
+    background-color: #D4A374;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+
+.card-content:last-child {
+    margin-right: 0;
+}
+
+.card-bg-2 {
+    background: pink;
+}
+
+.card-bg-3 {
+    background: #ba9c07;
+}
+
+.single-card img {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+/* Develop area  */
+.dev-img {
+    width: 30%;
+}
+
+.mr-5 {
+    margin-right: 5%;
+}
+
+.ml-5 {
+    margin-left: 5%;
+}
+
+.dev-img img {
+    width: 100%;
+}
+
+.develop-text h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.develop-text {
+    width: 65%;
+}
+
+.develop-text p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* Map area  */
+.map-area h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 78px;
+}
+
+/* Footer-area  */
+.footer-area h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.footer-area span {
+    color: #FFAD5A;
+}
+
+.footer-area p {
+    text-align: center;
+    color: #D9DBE1;
+}
+
+.bg-dark {
+    background: #3E3E3E;
+}
+
+.ptb-40 {
+    padding: 40px 0;
+}
